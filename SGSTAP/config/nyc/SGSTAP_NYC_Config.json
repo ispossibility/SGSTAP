@@ -1,0 +1,29 @@
+{
+    "west_east_map": 20,
+    "north_south_map": 20,
+    "patience": 10,
+    "delta": 1e-6,
+    "seed": 42,
+    "data_type": "nyc",
+
+    "all_data_filename": "data/nyc/all_data.pkl",
+    "aggregated": "data/nyc/aggregated/agg_9x9_risk-sum_flow-sum.pkl",
+    "mask_filename": "data/nyc/risk_mask.pkl",
+
+    "recent_prior": 24,
+    "week_prior": 4,
+    "one_day_period": 24,
+    "days_of_week": 7,
+    "pre_len": 1,
+
+    "train_rate": 0.6,
+    "valid_rate": 0.2,
+    "training_epoch": 200,
+    "optimizer": "adam",
+
+    "batch_size": 8,
+    "learning_rate": 0.0001,
+    "spatial_hidden": 128,
+    "hgcn_hidden": 128,
+    "temporal_hidden": 64
+}
